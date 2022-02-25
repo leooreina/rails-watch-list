@@ -24,3 +24,25 @@
 .btn-ghost:hover {
   opacity: 1;
 }
+
+.alert-link {
+  color: #dc3444 !important;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+
+  .btn-warning {
+    position: absolute;
+    top: -130px;
+    right: -20px;
+    color: white;
+    font-weight: bold;
+    background-color: #e6c222;
+    border-color: #e6c222;
+    &:hover {
+      cursor: default;
+    }
+  }
+}
